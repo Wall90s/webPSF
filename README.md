@@ -8,10 +8,7 @@
             </a>
         </p>
         <img style="
-                height: fit-content; 
-                max-height: 12rem;
-                margin: 0 1rem;
-                border-radius: 1rem;" src='https://ik.imagekit.io/wall90gifs/webPSF/logo?updatedAt=1682880741817'>
+                height: 10rem" src='https://ik.imagekit.io/wall90gifs/webPSF/logo?updatedAt=1682880741817'>
     </div>
 </section>
 <section>
