@@ -20,6 +20,8 @@
         <li>Node.js</li>
         <ul>
             <li><a href='https://www.npmjs.com/package/express'>Express</a></li>
+            <li><a href='https://www.npmjs.com/package/mongoose'>Mongoose</a></li>
         </ul>
+        <li>MongoDB</li>
     </ul>
 </section>
