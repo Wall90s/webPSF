@@ -17,6 +17,7 @@
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>Node.js</li>
         <ul>
             <li><a href='https://www.npmjs.com/package/express'>Express</a></li>
