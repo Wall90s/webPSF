@@ -1,0 +1,23 @@
+<p>{{ mensagem }}</p>
+
+<p>Olá {{ nome }}! Você tem {{ idade }} anos e é um(a) {{ profissao }}</p>
+
+<h2>Animais</h2>
+<div class="card" *ngFor="let animal of animais">
+  <div class="items">
+    <p>ID: {{ animal.id }}</p>
+    <p>Nome: {{ animal.nome }}</p>
+    <p>Raça: {{ animal.raca }}</p>
+    <p>Peso: {{ animal.peso }}kg</p>
+    <img src="{{animal.imagem}}" alt="">
+  </div>
+</div>
+
+<h2>Pessoas</h2>
+<div class="card" *ngFor="let pessoa of pessoas">
+  <div class="items">
+    <p>Nome: {{ pessoa.nome }}</p>
+    <p>Idade: {{ pessoa.idade }}</p>
+    <p>Profissão: {{ pessoa.profissao }}kg</p>
+  </div>
+</div>

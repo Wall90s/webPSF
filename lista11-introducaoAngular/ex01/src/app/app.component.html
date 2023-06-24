@@ -1,0 +1,19 @@
+<menu>
+  <a href="">Home</a>
+  <a href="">Produtos</a>
+  <a href="">Sobre Nós</a>
+  <a href="">Contato</a>
+</menu>
+
+<main>
+  <div class="card" *ngFor="let produto of produtos">
+    <img [src]="produto.imagem">
+    <p>{{ produto.nome }}</p>
+    <p>{{ produto.descricao }}</p>
+    <p>Preço: R${{ produto.valor }}</p>
+    <div class="buttons">
+      <button>detalhes</button>
+      <button>comprar</button>
+    </div>
+  </div>
+</main>
