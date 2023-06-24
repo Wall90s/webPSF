@@ -1,1 +1,88 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  background-color: #4A4E69;
+  color: #F2E9E4;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+
+}
+
+menu {
+  background-color: #22223B;
+  margin: 0 0 2rem 0;
+  font-size: 16pt;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+menu a {
+  text-decoration: none;
+  color: #F2E9E4;
+  transition: 0.4s;
+}
+
+menu a:hover {
+  color: #22223B;
+  padding: 0 1rem;
+  background-color: #C9ADA7;
+  border-radius: 3px;
+}
+
+main {
+  margin: 0 1rem 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #9A8C98;
+  width: 15rem;
+  padding: 8px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  transition: 0.2s;
+}
+
+.card img {
+  max-width: 100%;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card p:first-of-type {
+  font-size: 20pt;
+  text-align: center;
+  margin: 0;
+}
+
+.card:hover{
+  box-shadow: 0 0 10px #22223B;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  border: none;
+  background-color: #C9ADA7;
+  border-radius: 5px;
+  font-size: 12pt;
+  font-weight: 600;
+  padding: 6px 16px;
+  color: #22223B;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  color: #F2E9E4;
+  background-color: #4A4E69;
+  font-style: italic;
+}
