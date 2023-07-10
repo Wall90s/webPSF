@@ -1,12 +1,14 @@
 const express = require('express')
-const mongoose = require('mongoose')
 const app = express()
+const mongoose = require('mongoose')
+const cors = require('cors')
 const port = 8080
 const connectionString = "mongodb+srv://wall:tZtSXIXAQrvKm3OI@appdb.rw5ogbw.mongodb.net/?retryWrites=true&w=majority"
 
 const Animal = require('./models/animal')
 
 app.use(express.json())
+app.use(cors())
 
 app.get('/listar-animais', async (req, res) => {
     try {
